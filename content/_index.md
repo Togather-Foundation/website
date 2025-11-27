@@ -21,4 +21,4 @@ Togather Foundation is building...
 
 ## Latest Updates
 
-Check out our [recent posts](/posts/) to stay up to date.
+Check out our [announcements](/posts/) to stay up to date.

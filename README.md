@@ -34,13 +34,13 @@ hugo new about.md
 
 Edit `content/about.md` and set `draft: false` when ready to publish.
 
-### Create a New Blog Post
+### Create a New Announcement
 
 ```bash
-hugo new posts/my-post-title.md
+hugo new posts/my-announcement-title.md
 ```
 
-Edit `content/posts/my-post-title.md` with your content.
+Edit `content/posts/my-announcement-title.md` with your content.
 
 ### Front Matter Fields
 
@@ -103,7 +103,7 @@ Minimal custom CSS is in `themes/minimal/assets/css/main.css`. Only add custom s
 ├── content/              # All your content (pages, posts)
 │   ├── _index.md        # Home page content
 │   ├── about.md         # About page
-│   └── posts/           # Blog posts
+│   └── posts/           # Announcements
 ├── themes/minimal/       # Theme files
 │   ├── layouts/         # HTML templates
 │   └── assets/css/      # Minimal custom CSS
@@ -132,7 +132,7 @@ Add custom navigation links in `hugo.toml`:
 
 ```toml
 [[menus.main]]
-  name = "Blog"
+  name = "Announcements"
   url = "/posts/"
   weight = 1
 

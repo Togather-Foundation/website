@@ -3,7 +3,7 @@
 
 {{ if where .Site.RegularPages "Type" "posts" }}
 <section>
-  <h2>Recent Posts</h2>
+  <h2>Recent Announcements</h2>
   {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
   <article>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

@@ -29,7 +29,7 @@ Home
 - Landing page with clear value proposition
 - Brief introduction to Togather Foundation
 - Links to key sections
-- Recent updates/blog posts
+- Recent updates/announcements
 
 ### 2. **About** (`/about/`)
 Main about page with overview, plus subsections:
@@ -83,7 +83,7 @@ content/
 │   │   ├── _index.md          # Docs listing
 │   │   └── *.md               # Documentation pages
 │   └── reference.md            # Reference Material
-└── posts/                       # Blog/news
+└── posts/                       # Announcements
     └── *.md
 ```
 
@@ -93,7 +93,7 @@ content/
 - Technical
 - Contribute
 - Resources
-- Blog (optional, links to /posts/)
+- Announcements (links to /posts/)
 
 ## Notes
 - Each section has an `_index.md` that serves as the landing page
