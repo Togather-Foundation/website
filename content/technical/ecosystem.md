@@ -41,6 +41,6 @@ description: "Overview of the Togather Foundation technical ecosystem"
 
 ## Related Resources
 
-- [Features](/technical/features/)
-- [System Map](/technical/system-map/)
-- [Technical Documentation](/resources/docs/)
+- [Features]({{< relref "/technical/features" >}})
+- [System Map]({{< relref "/technical/system-map" >}})
+- [Technical Documentation]({{< relref "/resources/docs" >}})

@@ -27,6 +27,4 @@ Create individual feature pages in `content/technical/features/` using:
 hugo new technical/features/feature-name.md
 ```
 
-Example structure:
-- [Example Feature 1](/technical/features/example-feature-1/)
-- [Example Feature 2](/technical/features/example-feature-2/)
+Each feature page will automatically appear in the features list.

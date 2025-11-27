@@ -27,4 +27,4 @@ description: "Understanding the problem Togather Foundation addresses"
 
 **[Briefly describe how Togather Foundation addresses this]**
 
-Learn more about our [technical approach](/technical/).
+Learn more about our [technical approach]({{< relref "/technical" >}}).

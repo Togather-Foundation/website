@@ -16,7 +16,7 @@ menu:
 
 ## The Problem We're Solving
 
-Learn more about [the problem](/about/problem/) we're addressing.
+Learn more about [the problem]({{< relref "/about/problem" >}}) we're addressing.
 
 ## Our Approach
 
@@ -24,12 +24,12 @@ Learn more about [the problem](/about/problem/) we're addressing.
 
 ## Community Guidelines
 
-We maintain a [Code of Conduct](/about/code-of-conduct/) for all community interactions.
+We maintain a [Code of Conduct]({{< relref "/about/code-of-conduct" >}}) for all community interactions.
 
 ---
 
 ## Learn More
 
-- [Our Mission Statement](/about/mission/)
-- [The Problem Statement](/about/problem/)
-- [Code of Conduct](/about/code-of-conduct/)
+- [Our Mission Statement]({{< relref "/about/mission" >}})
+- [The Problem Statement]({{< relref "/about/problem" >}})
+- [Code of Conduct]({{< relref "/about/code-of-conduct" >}})

@@ -17,7 +17,7 @@ You can add images to your system map by:
 2. Referencing it in markdown:
 
 ```markdown
-![System Architecture](/images/system-map.png)
+![System Architecture(/images/system-map.png)
 ```
 
 ## Key Systems
@@ -46,5 +46,5 @@ You can add images to your system map by:
 
 ## Related Documentation
 
-- [Ecosystem Overview](/technical/ecosystem/)
-- [Features](/technical/features/)
+- [Ecosystem Overview]({{< relref "/technical/ecosystem" >}})
+- [Features]({{< relref "/technical/features" >}})

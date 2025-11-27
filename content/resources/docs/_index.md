@@ -11,11 +11,18 @@ Comprehensive technical documentation for developers and contributors.
 
 ## Getting Started
 
-**[Link to getting started guides]**
+**[Create getting started guides - examples:]**
 
-- [Quick Start Guide](/resources/docs/quick-start/)
-- [Installation](/resources/docs/installation/)
-- [Configuration](/resources/docs/configuration/)
+- Quick Start Guide
+- Installation
+- Configuration
+
+Create new documentation pages using:
+
+```bash
+hugo new resources/docs/quick-start.md
+hugo new resources/docs/installation.md
+```
 
 ## Guides
 
@@ -29,10 +36,10 @@ hugo new resources/docs/your-doc-name.md
 
 ## API Documentation
 
-**[Link to API documentation]**
+**[Create API documentation - examples:]**
 
-- [API Overview](/resources/docs/api-overview/)
-- [API Reference](/resources/reference/)
+- API Overview
+- [API Reference]({{< relref "/resources/reference" >}})
 
 ## Advanced Topics
 
@@ -46,4 +53,4 @@ hugo new resources/docs/your-doc-name.md
 
 ## Contributing to Documentation
 
-See our [Contribution Guide](/contribute/how-to/) to help improve documentation.
+See our [Contribution Guide]({{< relref "/contribute/how-to" >}}) to help improve documentation.

@@ -15,10 +15,10 @@ Togather Foundation is building...
 
 ## Get Started
 
-- [Learn About Our Mission](/about/)
-- [Explore the Technical Ecosystem](/technical/)
-- [Find Ways to Contribute](/contribute/)
+- [Learn About Our Mission]({{< relref "/about" >}})
+- [Explore the Technical Ecosystem]({{< relref "/technical" >}})
+- [Find Ways to Contribute]({{< relref "/contribute" >}})
 
 ## Latest Updates
 
-Check out our [announcements](/posts/) to stay up to date.
+Check out our [announcements]({{< relref "/posts" >}}) to stay up to date.

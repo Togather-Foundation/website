@@ -37,15 +37,15 @@ Here are specific ways you can help right now:
 
 **[Describe how people can claim/start working on an opportunity]**
 
-1. Review the [Contribution Guide](/contribute/how-to/)
-2. [Contact us](/contribute/contact/) expressing interest
+1. Review the [Contribution Guide]({{< relref "/contribute/how-to" >}})
+2. [Contact us]({{< relref "/contribute/contact" >}}) expressing interest
 3. We'll help you get started!
 
 ## Propose Your Own
 
 **[Encourage people to propose their own contributions]**
 
-Have an idea that's not listed? We'd love to hear it! [Contact us](/contribute/contact/) with your proposal.
+Have an idea that's not listed? We'd love to hear it! [Contact us]({{< relref "/contribute/contact" >}}) with your proposal.
 
 ---
 

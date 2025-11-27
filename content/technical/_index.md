@@ -18,21 +18,21 @@ menu:
 
 ### Ecosystem Overview
 
-Learn about our [ecosystem architecture](/technical/ecosystem/) and how components work together.
+Learn about our [ecosystem architecture]({{< relref "/technical/ecosystem" >}}) and how components work together.
 
 ### Features
 
-Explore our [features](/technical/features/) and capabilities.
+Explore our [features]({{< relref "/technical/features" >}}) and capabilities.
 
 ### System Map
 
-View the [system map](/technical/system-map/) to understand the architecture.
+View the [system map]({{< relref "/technical/system-map" >}}) to understand the architecture.
 
 ---
 
 ## Documentation
 
-- [Ecosystem Overview](/technical/ecosystem/)
-- [Features](/technical/features/)
-- [System Map](/technical/system-map/)
-- [Technical Resources](/resources/docs/)
+- [Ecosystem Overview]({{< relref "/technical/ecosystem" >}})
+- [Features]({{< relref "/technical/features" >}})
+- [System Map]({{< relref "/technical/system-map" >}})
+- [Technical Resources]({{< relref "/resources/docs" >}})

@@ -61,7 +61,7 @@ Thank you for your interest in contributing to Togather Foundation!
 
 **[Provide contribution guidelines]**
 
-- Follow the [Code of Conduct](/about/code-of-conduct/)
+- Follow the [Code of Conduct]({{< relref "/about/code-of-conduct" >}})
 - Write clear commit messages
 - Include tests when applicable
 - Update documentation
@@ -70,7 +70,7 @@ Thank you for your interest in contributing to Togather Foundation!
 
 **[Describe how contributors can get help]**
 
-Need help? [Contact us](/contribute/contact/)!
+Need help? [Contact us]({{< relref "/contribute/contact" >}})!
 
 ## Recognition
 

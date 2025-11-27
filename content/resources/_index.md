@@ -14,20 +14,20 @@ Find documentation, reference materials, and other helpful resources.
 
 ## Documentation
 
-Access our [technical documentation](/resources/docs/) for detailed guides and references.
+Access our [technical documentation]({{< relref "/resources/docs" >}}) for detailed guides and references.
 
 ## Reference Material
 
-Browse our [reference materials](/resources/reference/) for additional resources.
+Browse our [reference materials]({{< relref "/resources/reference" >}}) for additional resources.
 
 ## Quick Links
 
 **[Provide quick links to key resources]**
 
-- [Technical Documentation](/resources/docs/)
-- [API Reference](/resources/reference/)
-- [Ecosystem Overview](/technical/ecosystem/)
-- [System Map](/technical/system-map/)
+- [Technical Documentation]({{< relref "/resources/docs" >}})
+- [API Reference]({{< relref "/resources/reference" >}})
+- [Ecosystem Overview]({{< relref "/technical/ecosystem" >}})
+- [System Map]({{< relref "/technical/system-map" >}})
 
 ## External Resources
 
@@ -39,4 +39,4 @@ Browse our [reference materials](/resources/reference/) for additional resources
 
 ---
 
-Can't find what you're looking for? [Contact us](/contribute/contact/)!
+Can't find what you're looking for? [Contact us]({{< relref "/contribute/contact" >}})!

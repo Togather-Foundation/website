@@ -53,6 +53,6 @@ We typically respond to inquiries within 2-3 business days.
 
 **[Helpful information before contacting]**
 
-- Check our [FAQ](/resources/) for common questions
-- Review the [Contribution Guide](/contribute/how-to/) if you want to contribute
-- Read the [Code of Conduct](/about/code-of-conduct/) for community guidelines
+- Check our [FAQ]({{< relref "/resources" >}}) for common questions
+- Review the [Contribution Guide]({{< relref "/contribute/how-to" >}}) if you want to contribute
+- Read the [Code of Conduct]({{< relref "/about/code-of-conduct" >}}) for community guidelines

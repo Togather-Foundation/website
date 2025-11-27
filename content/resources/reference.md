@@ -62,4 +62,4 @@ Definition...
 
 ---
 
-Have a resource to suggest? [Contact us](/contribute/contact/)!
+Have a resource to suggest? [Contact us]({{< relref "/contribute/contact" >}})!
