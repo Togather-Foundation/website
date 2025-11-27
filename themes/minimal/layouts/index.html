@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h2>Welcome</h2>
+{{ .Content }}
+
+<h3>Recent Posts</h3>
+{{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+<article style="margin-bottom: 20px;">
+    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <p style="color: #666; font-size: 0.9em;">{{ .Date.Format "January 2, 2006" }}</p>
+    <p>{{ .Summary }}</p>
+</article>
+{{ end }}
+{{ end }}

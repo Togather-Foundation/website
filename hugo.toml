@@ -1,0 +1,4 @@
+baseURL = 'https://togather-foundation.github.io/website/'
+languageCode = 'en-us'
+title = 'Togather Foundation'
+theme = 'minimal'
