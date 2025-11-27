@@ -2,13 +2,13 @@
 {{ .Content }}
 
 {{ if where .Site.RegularPages "Type" "posts" }}
-<section class="recent-posts">
+<section>
   <h2>Recent Posts</h2>
   {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
   <article>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    <p class="article-meta">{{ .Date.Format "January 2, 2006" }}</p>
-    <div class="article-summary">{{ .Summary }}</div>
+    <p class="text-muted">{{ .Date.Format "January 2, 2006" }}</p>
+    {{ .Summary }}
   </article>
   {{ end }}
 </section>
