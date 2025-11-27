@@ -3,8 +3,6 @@
     <li><strong><a href="{{ .Site.Home.RelPermalink }}" class="contrast">{{ .Site.Title }}</a></strong></li>
   </ul>
   <ul>
-    <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
-    <li><a href="{{ "about" | relLangURL }}">About</a></li>
     {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
     {{ end }}

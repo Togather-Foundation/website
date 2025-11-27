@@ -1,7 +1,24 @@
 ---
 title: "Home"
+description: "Togather Foundation - Building collaborative solutions"
 ---
 
-Welcome to the Togather Foundation website!
+# Welcome to Togather Foundation
 
-This is a Hugo-powered static site built and deployed using GitHub Actions.
+**[Replace with your value proposition and introduction]**
+
+Togather Foundation is building...
+
+## What We Do
+
+**[Brief overview of the foundation's work]**
+
+## Get Started
+
+- [Learn About Our Mission](/about/)
+- [Explore the Technical Ecosystem](/technical/)
+- [Find Ways to Contribute](/contribute/)
+
+## Latest Updates
+
+Check out our [recent posts](/posts/) to stay up to date.
