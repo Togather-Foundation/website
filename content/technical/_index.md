@@ -8,31 +8,109 @@ menu:
 
 # Technical Ecosystem
 
-**[Provide an overview of your technical ecosystem]**
+**[Provide a high-level overview of your technical ecosystem]**
 
-## Overview
+## Architecture
 
-**[Describe the technical landscape]**
+**[Describe the overall architecture]**
 
-## Key Areas
+## Components
 
-### Ecosystem Overview
+**[List and describe key components]**
 
-Learn about our [ecosystem architecture]({{< relref "/technical/ecosystem" >}}) and how components work together.
+### Component 1
 
-### Features
+**[Description]**
 
-Explore our [features]({{< relref "/technical/features" >}}) and capabilities.
+### Component 2
 
-### System Map
+**[Description]**
 
-View the [system map]({{< relref "/technical/system-map" >}}) to understand the architecture.
+### Component 3
+
+**[Description]**
+
+## Integration
+
+**[Describe how components integrate]**
+
+## Technology Stack
+
+**[List key technologies used]**
+
+- Technology 1
+- Technology 2
+- Technology 3
 
 ---
 
-## Documentation
+## System Map
 
-- [Ecosystem Overview]({{< relref "/technical/ecosystem" >}})
-- [Features]({{< relref "/technical/features" >}})
-- [System Map]({{< relref "/technical/system-map" >}})
-- [Technical Resources]({{< relref "/resources/docs" >}})
+**[Provide a system map showing architecture and relationships]**
+
+### Architecture Diagram
+
+**[Insert architecture diagram or description]**
+
+You can add images to your system map by:
+
+1. Adding the image to `/static/images/`
+2. Referencing it in markdown:
+
+```markdown
+![System Architecture](/images/system-map.png)
+```
+
+### Key Systems
+
+**[Describe the key systems and their relationships]**
+
+#### System A
+
+**[Description]**
+
+#### System B
+
+**[Description]**
+
+#### System C
+
+**[Description]**
+
+### Data Flow
+
+**[Describe how data flows through the system]**
+
+### Integration Points
+
+**[Describe integration points between systems]**
+
+---
+
+## Features
+
+**[Introduce your features - both current and prospective]**
+
+### Current Features
+
+**[List currently available features]**
+
+### Prospective Features
+
+**[List planned/prospective features]**
+
+### Feature Pages
+
+Create individual feature pages in `content/technical/features/` using:
+
+```bash
+hugo new technical/features/feature-name.md
+```
+
+Each feature page will automatically appear in the features list.
+
+---
+
+## Related Resources
+
+- [Technical Documentation]({{< relref "/resources" >}})

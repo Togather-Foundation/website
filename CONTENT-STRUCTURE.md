@@ -1,26 +1,18 @@
-# Togather Foundation - Information Architecture
+# Togather Foundation - Information Architecture (Lean Version)
 
-## Proposed Site Structure
+## Site Structure
 
-### Primary Navigation
+**8 total pages** - streamlined for easy maintenance
 
 ```
 Home
-├── About
-│   ├── Our Mission
-│   ├── The Problem
+├── About (includes mission + problem)
 │   └── Code of Conduct
-├── Technical
-│   ├── Ecosystem Overview
-│   ├── Features
-│   └── System Map
-├── Contribute
-│   ├── How to Contribute
-│   ├── Opportunities
+├── Technical (includes ecosystem + features + system map)
+├── Contribute (includes how-to + opportunities)
 │   └── Contact
-└── Resources
-    ├── Documentation
-    └── Reference Material
+├── Resources (includes docs + reference)
+└── Announcements
 ```
 
 ## Content Organization
@@ -32,27 +24,47 @@ Home
 - Recent updates/announcements
 
 ### 2. **About** (`/about/`)
-Main about page with overview, plus subsections:
-- **Our Mission** (`/about/mission/`) - Shared purpose, objectives
-- **The Problem** (`/about/problem/`) - Problem statement and context
-- **Code of Conduct** (`/about/code-of-conduct/`) - Community guidelines
+Single comprehensive page covering:
+- Organization overview
+- **Our Mission** - Purpose, objectives, values, vision
+- **The Problem** - Background, challenges, impact, solution
+- **Community Guidelines** - Link to Code of Conduct
+
+Separate page:
+- **Code of Conduct** (`/about/code-of-conduct/`) - Full community guidelines
 
 ### 3. **Technical** (`/technical/`)
-Technical documentation hub:
-- **Ecosystem Overview** (`/technical/ecosystem/`) - High-level technical overview
-- **Features** (`/technical/features/`) - Individual feature pages
-- **System Map** (`/technical/system-map/`) - Architecture and system relationships
+Single comprehensive page covering:
+- **Architecture** - Overall technical architecture
+- **Components** - Key system components
+- **Integration** - How components work together
+- **Technology Stack** - Technologies used
+- **System Map** - Architecture diagram and relationships
+- **Features** - Current and prospective features
 
 ### 4. **Contribute** (`/contribute/`)
-Activation and engagement:
-- **How to Contribute** (`/contribute/how-to/`) - Contribution guide
-- **Opportunities** (`/contribute/opportunities/`) - Specific ways to help
-- **Contact** (`/contribute/contact/`) - Contact information
+Single comprehensive page covering:
+- **Getting Started** - Prerequisites and setup
+- **Types of Contributions** - Code, docs, community support
+- **Contribution Workflow** - Step-by-step process
+- **Guidelines** - Contribution best practices
+- **Current Opportunities** - Technical, documentation, community
+- **Recognition** - How contributors are recognized
+- **Getting Help** - Support for contributors
+
+Separate page:
+- **Contact** (`/contribute/contact/`) - Email, channels, social media
 
 ### 5. **Resources** (`/resources/`)
-Reference materials and documentation:
-- **Documentation** (`/resources/docs/`) - Technical docs
-- **Reference Material** (`/resources/reference/`) - Additional resources
+Single comprehensive page covering:
+- **Documentation** - Getting started, guides, API docs
+- **Reference Material** - Technical refs, papers, projects, standards
+- **Glossary** - Key terms defined
+- **External Resources** - Useful links
+
+### 6. **Announcements** (`/posts/`)
+- Blog/news listing page
+- Individual announcement posts created with `hugo new posts/post-name.md`
 
 ## Hugo Implementation
 
@@ -61,42 +73,53 @@ Reference materials and documentation:
 content/
 ├── _index.md                    # Home page
 ├── about/
-│   ├── _index.md               # About overview
-│   ├── mission.md              # Our Mission
-│   ├── problem.md              # The Problem
+│   ├── _index.md               # About (mission + problem)
 │   └── code-of-conduct.md      # Code of Conduct
 ├── technical/
-│   ├── _index.md               # Technical hub
-│   ├── ecosystem.md            # Ecosystem Overview
-│   ├── features/
-│   │   ├── _index.md          # Features listing
-│   │   └── feature-*.md       # Individual features
-│   └── system-map.md           # System Map
+│   └── _index.md               # Technical (ecosystem + features + map)
 ├── contribute/
-│   ├── _index.md               # Contribute hub
-│   ├── how-to.md               # How to Contribute
-│   ├── opportunities.md        # Opportunities
+│   ├── _index.md               # Contribute (how-to + opportunities)
 │   └── contact.md              # Contact
 ├── resources/
-│   ├── _index.md               # Resources hub
-│   ├── docs/
-│   │   ├── _index.md          # Docs listing
-│   │   └── *.md               # Documentation pages
-│   └── reference.md            # Reference Material
+│   └── _index.md               # Resources (docs + reference)
 └── posts/                       # Announcements
-    └── *.md
+    └── _index.md
 ```
 
 ## Navigation Menu
-- Home
 - About
 - Technical
 - Contribute
 - Resources
-- Announcements (links to /posts/)
+- Announcements
+
+## Benefits of Lean Structure
+
+1. **Easier to maintain** - Fewer files to manage
+2. **Better for users** - All related info in one place
+3. **Faster to populate** - Less navigation between files
+4. **Simpler** - Clear organization without excessive hierarchy
+5. **Scalable** - Can still add subsections when needed
+
+## Adding Content
+
+### Add a new announcement:
+```bash
+hugo new posts/my-announcement.md
+```
+
+### Add a new feature page:
+```bash
+hugo new technical/features/feature-name.md
+```
+
+### Add new documentation:
+```bash
+hugo new resources/docs/doc-name.md
+```
 
 ## Notes
-- Each section has an `_index.md` that serves as the landing page
-- Subsections can be single pages or list pages
-- Use Hugo's built-in section menus for subsection navigation
-- Keep top-level nav simple (5-6 items max)
+- Each main section has a single comprehensive `_index.md`
+- Code of Conduct and Contact are separate for easy discovery
+- Use headings (##, ###) to organize content within pages
+- All internal links use Hugo's `relref` shortcode for proper URLs

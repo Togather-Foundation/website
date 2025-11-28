@@ -14,20 +14,99 @@ Find documentation, reference materials, and other helpful resources.
 
 ## Documentation
 
-Access our [technical documentation]({{< relref "/resources/docs" >}}) for detailed guides and references.
+**[Introduce your documentation]**
+
+Comprehensive technical documentation for developers and contributors.
+
+### Getting Started
+
+**[Create getting started guides - examples:]**
+
+- Quick Start Guide
+- Installation
+- Configuration
+
+Create new documentation pages using:
+
+```bash
+hugo new resources/docs/quick-start.md
+hugo new resources/docs/installation.md
+```
+
+### Guides
+
+**[List available guides]**
+
+Create new documentation pages using:
+
+```bash
+hugo new resources/docs/your-doc-name.md
+```
+
+### API Documentation
+
+**[Create API documentation - examples:]**
+
+- API Overview
+- API Reference
+
+---
 
 ## Reference Material
 
-Browse our [reference materials]({{< relref "/resources/reference" >}}) for additional resources.
+**[Introduce reference materials]**
 
-## Quick Links
+Additional resources, links, and reference materials.
 
-**[Provide quick links to key resources]**
+### Technical References
 
-- [Technical Documentation]({{< relref "/resources/docs" >}})
-- [API Reference]({{< relref "/resources/reference" >}})
-- [Ecosystem Overview]({{< relref "/technical/ecosystem" >}})
-- [System Map]({{< relref "/technical/system-map" >}})
+**[List technical reference materials]**
+
+- Reference 1
+- Reference 2
+- Reference 3
+
+### Academic Papers
+
+**[List relevant academic papers or research]**
+
+- Paper 1
+- Paper 2
+
+### Related Projects
+
+**[List related open-source projects or initiatives]**
+
+- Project 1
+- Project 2
+- Project 3
+
+### Standards & Specifications
+
+**[List relevant standards and specifications]**
+
+- Standard 1
+- Standard 2
+
+### Useful Links
+
+**[List other useful links]**
+
+- Link 1
+- Link 2
+- Link 3
+
+### Glossary
+
+**[Define key terms]**
+
+**Term 1:** Definition...
+
+**Term 2:** Definition...
+
+**Term 3:** Definition...
+
+---
 
 ## External Resources
 
@@ -39,4 +118,4 @@ Browse our [reference materials]({{< relref "/resources/reference" >}}) for addi
 
 ---
 
-Can't find what you're looking for? [Contact us]({{< relref "/contribute/contact" >}})!
+Have a resource to suggest? [Contact us]({{< relref "/contribute/contact" >}})!
