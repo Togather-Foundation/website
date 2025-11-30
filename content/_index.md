@@ -1,24 +1,17 @@
 ---
 title: "Home"
-description: "Togather Foundation - Building collaborative solutions"
+description: "Togather Foundation"
 ---
 
 # Welcome to Togather Foundation
 
-**[Replace with your value proposition and introduction]**
-
-Togather Foundation is building...
+**[Add your introduction and value proposition here]**
 
 ## What We Do
 
-**[Brief overview of the foundation's work]**
+**[Describe what the Togather Foundation does]**
 
-## Get Started
+## Learn More
 
-- [Learn About Our Mission]({{< relref "/about" >}})
-- [Explore the Technical Ecosystem]({{< relref "/technical" >}})
-- [Find Ways to Contribute]({{< relref "/contribute" >}})
-
-## Latest Updates
-
-Check out our [announcements]({{< relref "/posts" >}}) to stay up to date.
+- [Ecosystem Overview]({{< relref "/ecosystem" >}})
+- [Latest Announcements]({{< relref "/posts" >}})
