@@ -14,4 +14,4 @@ description: "Togather Foundation"
 ## Learn More
 
 - [Ecosystem Overview]({{< relref "/ecosystem" >}})
-- [Latest Announcements]({{< relref "/posts" >}})
+- [Latest News]({{< relref "/news" >}})

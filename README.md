@@ -26,13 +26,13 @@ A simple, fast website built with [Hugo](https://gohugo.io/) and styled with [Pi
 
 ## 📝 Creating Content
 
-### Add a New Announcement
+### Add a New News Item
 
 ```bash
-hugo new posts/my-announcement.md
+hugo new news/my-announcement.md
 ```
 
-Edit `content/posts/my-announcement.md` and set `draft: false` when ready to publish.
+Edit `content/news/my-announcement.md` and set `draft: false` when ready to publish.
 
 ### Front Matter Example
 
@@ -57,7 +57,7 @@ Content after this line is hidden in summaries.
 content/
 ├── _index.md              # Homepage
 ├── ecosystem.md           # Ecosystem overview
-└── posts/                 # Announcements
+└── news/                  # News
     ├── _index.md
     ├── welcome.md         # Example post
     └── getting-started.md # Example post

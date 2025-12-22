@@ -53,7 +53,7 @@ Single file: `assets/css/main.css` (12 lines)
 
 - **Homepage**: Uses `_index.md` → rendered with baseof + single template
 - **Ecosystem**: Uses `ecosystem.md` → rendered with baseof + single template
-- **Announcements listing**: Uses `posts/_index.md` → rendered with baseof + list template
-- **Individual announcement**: Uses `posts/*.md` → rendered with baseof + single template
+- **News listing**: Uses `news/_index.md` → rendered with baseof + list template
+- **Individual news item**: Uses `news/*.md` → rendered with baseof + single template
 
 All templates use Pico CSS for styling with minimal custom CSS.
