@@ -204,15 +204,15 @@ Foundations, municipal innovation programs, and mission-aligned investors who un
 
 ## Outcomes We Enable
 
-✅ **Individuals** discover community events through personalized, privacy-respecting experiences—without platform lock-in
+- **Individuals** discover community events through personalized, privacy-respecting experiences—without platform lock-in
 
-✅ **Organizers** publish once and reach audiences everywhere, without ads or algorithmic suppression
+- **Organizers** publish once and reach audiences everywhere, without ads or algorithmic suppression
 
-✅ **Developers** build innovative applications on shared, open infrastructure instead of siloed datasets
+- **Developers** build innovative applications on shared, open infrastructure instead of siloed datasets
 
-✅ **Communities** see and coordinate themselves—making neighborhoods more connected and culture more visible
+- **Communities** see and coordinate themselves—making neighborhoods more connected and culture more visible
 
-✅ **Cities** support local gathering without relying on extractive corporate platforms
+- **Cities** support local gathering without relying on extractive corporate platforms
 
 ---
 
@@ -220,6 +220,12 @@ Foundations, municipal innovation programs, and mission-aligned investors who un
 
 We're at the beginning. The protocols are being drafted. The first curators are being built. The ecosystem is taking shape.
 
-**If this resonates—if you see the opportunity, have complementary expertise, or just want to help make this real—let's talk.**
+**If this resonates—if you have expertise, see the opportunity, or want to help make this real—[let's talk](mailto:info@togather.foundation).**
 
-[Explore the Code](#) • [Read the Latest]({{< relref "/news" >}}) • [Get in Touch](#)
+<ul class="cta-links">
+
+- [Read the Latest]({{< relref "/news" >}})
+- [Get in Touch](mailto:info@togather.foundation)
+
+</ul>
+

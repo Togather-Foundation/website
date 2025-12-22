@@ -15,8 +15,6 @@ We're building **togather**: open, community-owned infrastructure that helps peo
 
 [Explore the Vision]({{< relref "/ecosystem" >}})
 
-[Join the Conversation](#contact)
-
 </div>
 
 </div>
@@ -25,17 +23,24 @@ We're building **togather**: open, community-owned infrastructure that helps peo
 
 Local culture is **invisible**. Not because it doesn't exist, but because it's fragmented:
 
+<ul class="no-checkmarks">
+
 - 🎭 Art shows on Instagram, workshops on email lists, gatherings on Discord
 - 😫 Organizers spend hours cross-posting to reach anyone
 - 🏛️ Communities can't see or coordinate themselves
 - 💰 Platforms extract value while contributing nothing
 
+</ul>
+
 **Discovery is broken. Infrastructure is missing.**
 
 ## Our Opportunity
 
-What if event discovery worked like the internet *should*?
+We're at an inflection point. AI agents are emerging as personal assistants that can help people discover, evaluate, and plan events—working for individuals rather than platforms. For the first time, it's possible to build infrastructure where discovery happens *locally*, guided by personal curators that learn what matters to you, rather than algorithms optimizing for engagement and ads.
 
+This changes everything. What if event discovery worked like the internet *should*?
+
+- **Personal AI curators**: Agents that learn your taste, coordinate with your calendar, and surface events you'd actually love
 - **No platform lock-in**: Publish once, appear everywhere (calendar apps, websites, feeds, your audience's inbox)
 - **Privacy by default**: Personal curators run locally or through trusted instances. No tracking, no profiling
 - **Open and improvable**: All code is inspectable. Standards-based. Anyone can build compatible tools
@@ -94,17 +99,17 @@ Personal AI curators, calendar assistants, neighborhood discovery apps—all bui
 
 ## The Difference
 
-✅ **No single company controls it.** Built by cooperatives, civic tech practitioners, and local groups.
+- **No single company controls it.** Built by cooperatives, civic tech practitioners, and local groups.
 
-✅ **Privacy-first.** Your curator runs locally. Your data stays with you.
+- **Privacy-first.** Your curator runs locally. Your data stays with you.
 
-✅ **Works with what exists.** Email lists, calendars, websites, group chats—we strengthen them, don't replace them.
+- **Works with what exists.** Email lists, calendars, websites, group chats—we strengthen them, don't replace them.
 
-✅ **Open source & transparent.** All code is inspectable and forkable.
+- **Open source & transparent.** All code is inspectable and forkable.
 
-✅ **Built for small events.** We start with DIY shows, not just big venues.
+- **Built for small events.** We start with DIY shows, not just big venues.
 
-✅ **Bring your own AI.** Modular. Swappable. Serve communities, not platforms.
+- **Bring your own AI.** Modular. Swappable. Serve communities, not platforms.
 
 ## What's Next
 
@@ -112,4 +117,10 @@ We're at the beginning. The protocols are being drafted. The first curators are 
 
 **If this resonates—if you have expertise, see the opportunity, or want to help make this real—[let's talk](mailto:info@togather.foundation).**
 
-[Explore the Ecosystem in Detail]({{< relref "/ecosystem" >}}) • [Read the Latest]({{< relref "/news" >}}) • [info@togather.foundation](mailto:info@togather.foundation)
+<ul class="cta-links">
+
+- [Explore the Ecosystem in Detail]({{< relref "/ecosystem" >}})
+- [Read the Latest]({{< relref "/news" >}})
+- [Get in Touch](mailto:info@togather.foundation)
+
+</ul>

@@ -20,26 +20,51 @@ h1 {
 
 h2 {
   font-size: clamp(1.5rem, 4vw, 2.2rem);
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
   --pico-font-weight: 400;
-  max-width: 65ch;
+  max-width: 80ch;
 }
 
 /* ===== Hero Section ===== */
 
 .hero {
-  padding: 4rem 0 2rem 0;
+  padding: 6rem 0 4rem 0;
   animation: fadeInDown 0.8s ease-out;
+  margin-bottom: 3rem;
+  position: relative;
+  background: linear-gradient(135deg, 
+    transparent 0%, 
+    rgba(76, 154.5, 137.5, 0.03) 25%, 
+    rgba(76, 154.5, 137.5, 0.05) 50%, 
+    rgba(76, 154.5, 137.5, 0.03) 75%, 
+    transparent 100%);
+  border-radius: 0.5rem;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(76, 154.5, 137.5, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(76, 154.5, 137.5, 0.02) 0%, transparent 50%);
+  pointer-events: none;
+  border-radius: 0.5rem;
 }
 
 .hero h1 {
   color: var(--pico-form-element-valid-border-color);
   margin-bottom: 1.5rem;
   animation: slideInUp 0.8s ease-out 0.1s both;
+  position: relative;
+  z-index: 1;
 }
 
 .hero > p {
@@ -48,6 +73,8 @@ p {
   margin-bottom: 2.5rem;
   animation: slideInUp 0.8s ease-out 0.2s both;
   max-width: none;
+  position: relative;
+  z-index: 1;
 }
 
 /* ===== CTA Buttons ===== */
@@ -95,7 +122,20 @@ p {
 
 article + article,
 section {
-  margin-top: 3rem;
+  margin-top: 4rem;
+}
+
+/* Section dividers before h2 headers */
+h2:not(:first-of-type)::before {
+  content: '';
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, var(--pico-form-element-valid-border-color) 20%, var(--pico-form-element-valid-border-color) 80%, transparent 100%);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 1px;
 }
 
 /* ===== Problem/Opportunity Sections ===== */
@@ -177,6 +217,8 @@ main li {
   list-style: none;
   padding-left: 1.5rem;
   position: relative;
+  max-width: 90ch;
+  margin: 0.5rem 0;
 }
 
 main li::before {
@@ -185,6 +227,16 @@ main li::before {
   left: 0;
   color: var(--pico-form-element-valid-border-color);
   font-weight: bold;
+}
+
+/* Don't add checkmarks to emoji lists, and reduce indent since emoji is visual marker */
+.no-checkmarks li {
+  padding-left: 0;
+  margin: 0.5rem 0;
+}
+
+.no-checkmarks li::before {
+  content: '';
 }
 
 /* ===== Utility Classes ===== */
@@ -257,4 +309,45 @@ main li::before {
   h2 {
     font-size: 1.4rem;
   }
+
+  .cta-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .cta-links li:not(:last-child)::after {
+    display: none;
+  }
+}
+
+/* ===== CTA Links List ===== */
+
+.cta-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+}
+
+.cta-links li {
+  display: inline-flex;
+  padding: 0;
+}
+
+.cta-links li::before {
+  display: none;
+}
+
+.cta-links li a {
+  text-decoration: none;
+}
+
+.cta-links li:not(:last-child)::after {
+  content: "•";
+  margin: 0 0.75rem;
+  color: var(--pico-text-selection-color);
 }

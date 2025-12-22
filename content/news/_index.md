@@ -7,6 +7,4 @@ menu:
     weight: 1
 ---
 
-# News
-
 Stay up to date with the latest news and updates from Togather Foundation.
