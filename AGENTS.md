@@ -18,8 +18,7 @@ content/              # Markdown source - rendered by Hugo
 ├── ecosystem.md     # Ecosystem overview page
 └── news/            # News section
     ├── _index.md    # News list page
-    ├── welcome.md
-    └── getting-started.md
+    ├── news_article.md
 
 themes/minimal/       # Custom Hugo theme (not a marketplace theme)
 ├── layouts/          # 3 HTML templates + 3 partials

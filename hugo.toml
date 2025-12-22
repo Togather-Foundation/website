@@ -2,3 +2,7 @@ baseURL = 'https://togather-foundation.github.io/website/'
 languageCode = 'en-us'
 title = 'Togather Foundation'
 theme = 'minimal'
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup.goldmark.renderer]
+unsafe = true

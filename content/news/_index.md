@@ -1,11 +1,12 @@
 ---
-title: "Announcements"
+title: "News"
 description: "Latest updates and news from Togather Foundation"
 menu:
   main:
-    weight: 2
+    name: "News"
+    weight: 1
 ---
 
-# Announcements
+# News
 
 Stay up to date with the latest news and updates from Togather Foundation.
