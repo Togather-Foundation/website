@@ -1,5 +1,9 @@
 {{ define "main" }}
+{{ if not .Params.hide_title }}
 <h1>{{ .Title }}</h1>
+{{ else }}
+<!-- Title hidden by hide_title parameter -->
+{{ end }}
 {{ .Content }}
 
 {{ range .Pages }}

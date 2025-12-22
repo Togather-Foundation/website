@@ -1,6 +1,7 @@
 ---
 title: "Togather Foundation"
 description: "Community-owned infrastructure for event discovery. Join the ecosystem."
+hide_title: true
 ---
 
 <div class="hero">
