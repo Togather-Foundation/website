@@ -87,7 +87,7 @@ The site will build and deploy automatically in ~1 minute.
 
 This site uses **Pico CSS (Amber theme)** for beautiful, responsive styling with zero configuration.
 
-Custom CSS is minimal (12 lines) in `themes/minimal/assets/css/main.css`.
+Custom CSS is in `themes/minimal/assets/css/main.css`.
 
 ## 📖 Resources
 
