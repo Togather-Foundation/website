@@ -38,9 +38,9 @@ p {
   position: relative;
   background: linear-gradient(135deg, 
     transparent 0%, 
-    rgba(76, 154.5, 137.5, 0.03) 25%, 
-    rgba(76, 154.5, 137.5, 0.05) 50%, 
-    rgba(76, 154.5, 137.5, 0.03) 75%, 
+    rgba(76, 155, 138, 0.03) 25%, 
+    rgba(76, 155, 138, 0.05) 50%, 
+    rgba(76, 155, 138, 0.03) 75%, 
     transparent 100%);
   border-radius: 0.5rem;
 }
@@ -53,8 +53,8 @@ p {
   right: 0;
   bottom: 0;
   background-image: 
-    radial-gradient(circle at 20% 50%, rgba(76, 154.5, 137.5, 0.02) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(76, 154.5, 137.5, 0.02) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(76, 155, 138, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(76, 155, 138, 0.02) 0%, transparent 50%);
   pointer-events: none;
   border-radius: 0.5rem;
 }
