@@ -99,7 +99,7 @@ Always use Hugo's `relref` shortcode (not HTML links):
 
 ### CSS & Styling
 - **Pico CSS** (Amber theme) from CDN provides all core styling
-- **Custom CSS** in `themes/minimal/assets/css/main.css` is minimal (article spacing, .text-muted utility)
+- **Custom CSS** in `themes/minimal/assets/css/main.css` handles article spacing, utilities (e.g., `.text-muted`), and other site-specific overrides
 - No JavaScript—pure HTML/CSS for simplicity
 - Pico handles responsiveness automatically
 
