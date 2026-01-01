@@ -21,7 +21,7 @@ We're rebuilding event discovery as a public good. A world where:
 - **Organizers** reach their audiences directly, owning their relationship with attendees
 - **Communities** can see and coordinate themselves
 - **Developers** build innovative tools on shared, open infrastructure
-- **Cities** thrive with cultural coordination that doesn't depend on corporat. We don't have any other social media presence at this time.e platforms
+- **Cities** thrive with cultural coordination that doesn't depend on corporate platforms
 
 ## Why This Matters
 
