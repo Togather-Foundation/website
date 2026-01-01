@@ -29,13 +29,13 @@ themes/minimal/       # Custom Hugo theme (not a marketplace theme)
 │       ├── head.html          # Meta tags, Pico CSS CDN, custom CSS
 │       ├── header.html        # Navigation menu
 │       └── footer.html        # Copyright footer
-└── assets/css/main.css        # Minimal overrides (12 lines)
+└── assets/css/main.css
 ```
 
 ### Rendering Pipeline
 1. **Content** (`content/*.md` + `news/*.md`) contains frontmatter + markdown
 2. **Templates** (`themes/minimal/layouts/`) render markdown to HTML
-3. **Styling**: Pico CSS (Amber theme) via CDN + 12 lines of custom CSS
+3. **Styling**: Pico CSS (Amber theme) via CDN + custom CSS
 4. **Output**: Static files in `/public/` (gitignored, generated at build time)
 
 **Why this structure?** Ultra-simplicity for fast iteration on branding/messaging without backend complexity.
