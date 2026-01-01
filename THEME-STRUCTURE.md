@@ -44,7 +44,7 @@ Simple footer with copyright notice.
 
 ## CSS
 
-Single file: `assets/css/main.css` (12 lines)
+Single file: `assets/css/main.css`
 - Minimal overrides for Pico CSS
 - Article spacing
 - Text muted utility class
