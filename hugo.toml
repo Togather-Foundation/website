@@ -4,6 +4,9 @@ title = 'Togather Foundation'
 theme = 'minimal'
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[params]
+description = 'An open ecosystem for community-owned event discovery'
+
 [markup.goldmark.renderer]
 unsafe = true
 
