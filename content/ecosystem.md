@@ -7,7 +7,7 @@ menu:
     weight: 2
 ---
 
-#### Togather is an initiative to create an open ecosystem for AI enabled events discovery and community building on a foundation of public commons event data.
+**Togather is a collaboration for the future of events data. We are making a data commons for open events ecosystems.**
 
 We're coordinating three groups to adopt shared practices:
 

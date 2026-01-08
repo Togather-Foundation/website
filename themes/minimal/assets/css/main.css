@@ -67,14 +67,36 @@ p {
   z-index: 1;
 }
 
-.hero > p {
+.hero > p, .hero > ul {
   font-size: 1.2rem;
-  color: var(--pico-muted-color);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero > p {
   margin-bottom: 2.5rem;
   animation: slideInUp 0.8s ease-out 0.2s both;
   max-width: none;
   position: relative;
   z-index: 1;
+}
+
+/* No bullters or indent, just vertical list for hero section */
+.hero > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.5rem 0;
+}
+
+.hero > ul li {
+  padding: 0;
+  margin: 0.75rem 0;
+}
+
+.hero > ul li::before {
+  content: '';
+  display: none;
 }
 
 /* ===== CTA Buttons ===== */
