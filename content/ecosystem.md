@@ -7,220 +7,233 @@ menu:
     weight: 2
 ---
 
-Local culture is invisible—not because it doesn't exist, but because it's scattered across incompatible platforms. **Togather** is building an open ecosystem for community connection—one that treats event discovery as a public good, not a profit center.
+#### Togather is an initiative to create an open ecosystem for AI enabled events discovery and community building on a foundation of public commons event data.
+
+We're coordinating three groups to adopt shared practices:
+
+1. **Event publishers** (venues, organizers) → publish events with help from AI
+2. **Infrastructure builders** (developers, civic technologists) → build shared, open tools instead of proprietary silos
+3. **Application creators** (curators, AI devs) → make discovery experiences using the commons
+
+**We exist to:** Make this vision clear, provide documentation and standards, and connect people already working on these problems.
+
+**We are not:** A platform, a product, or a funded organization.
+
+We're a coordination point for a movement.
+
+
+## The Problem
+
+**Event discovery is broken because event data is fragmented:**
+
+- **Platform Fragmentation** – events are listed across walled platforms or discrete locations fragmenting discoverability (social media, event platforms, individual websites)
+- **High Effort for comprehensive coverage** – organizers spend hours cross-posting to reach audiences
+- **Communities can't coordinate** because there's no shared infrastructure
+
+**The real issue:** there is no lack of siloed event data, but open access and expert, personalized curation are missing.
+
 
 ## The Opportunity
 
-Events, workshops, gatherings, and community initiatives are announced on Facebook, Instagram, Eventbrite, Discord, mailing lists, posters, and hundreds of independent websites. This fragmentation creates simultaneous problems:
+**Three forces are converging:**
 
-- **Discovery is broken**: People miss events they'd love because they don't know where to look
-- **Organizers are exhausted**: Grassroots groups spend hours cross-posting to reach anyone
-- **Communities are isolated**: Without shared infrastructure, neighborhoods can't coordinate themselves
-- **Platforms extract value**: Corporate intermediaries monetize attention while contributing nothing to local culture
+1. **Semantic web standards exist and work** (Schema.org, ActivityPub)
+2. **Platform exhaustion is high** (organizers tired of cross-posting, users tired of algorithms)
+3. **AI agents can work for you** (personal curators need accessible, structured data)
 
-But there's an emerging solution: **AI agents that work for individuals, not platforms**. These agents can gather distributed data, learn preferences, coordinate across calendars, and surface what matters—while keeping control and privacy with people rather than corporations.
+**What's missing:** An open events commons and coordination between stakeholders.
 
-**We have a chance to rebuild cultural discovery as shared civic infrastructure.**
+**The mechanism:** Creating an events commons using shared standards that everyone can build on. Discovery can then be mediated locally under your control.
 
-## Our Vision
 
-Togather is establishing the **Togather Foundation** to coordinate three interconnected layers:
+## How It Works
 
-### 1. Data Production & Collection
+### Layer 1: Data Publishing (Structured Metadata)
 
-Open standards and tools for creating, publishing, and aggregating event information from any source—institutional calendars, grassroots sites, legacy platforms, and physical posters.
+**Problem:** Events published in ways machines can't read
 
-**Examples:**
-- Schema.org event markup for venues and organizers
-- iCalendar feeds for publishing
-- API standards for aggregation
-- Tools for converting existing data sources
+**Solution:** AI tools to help adoption and use of Schema.org Event markup, iCalendar feeds, ActivityPub
 
-### 2. Data Storage & Retrieval
+**Barrier:** Low. Add metadata to existing website (1-2 hours)
 
-A **Shared Event Library**: community-owned, federated infrastructure that makes event data accessible without platform lock-in or surveillance.
+**Target:** Venues, organizers, cultural institutions
 
-**Key features:**
-- Open data standards (no proprietary formats)
-- Federated architecture (anyone can run an instance)
-- Full-text search and filtering
-- RESTful and ActivityPub interfaces
-- Webhooks for real-time updates
-- Privacy-respecting metadata
+**What this enables:** Any tool can discover and parse your events without asking permission
 
-### 3. Applications & Agentic Experiences
+### Layer 2: Shared Infrastructure (Open Tools)
 
-Personal AI curators, calendar assistants, neighborhood discovery apps, and coordination tools—all built on the same open foundation, competing on quality rather than data monopolies.
+**Problem:** Every developer rebuilds event scraping/aggregation
 
-**Powered by:**
-- Local-first ML models
-- Swappable AI backends (bring your own models)
-- User-controlled preference learning
-- Calendar integrations (Apple, Google, Outlook)
-- Push/SMS/email notifications
-- Web and mobile apps
+**Solution:** Build shared, federated infrastructure (search APIs, data validators, aggregators)
 
-**No single company controls it. No ads. No extraction. Just infrastructure that helps cities coordinate themselves.**
+**Barrier:** Medium. Requires technical skill but standards-based
 
----
+**Target:** Developers, civic tech practitioners, cooperatives
+
+**What this enables:** Distributed event collection for the commons
+
+### Layer 3: Discovery Applications (End-User Experiences)
+
+**Problem:** People miss events because discovery is fragmented
+
+**Solution:** Personal AI curators, calendar assistants, neighborhood digests (all reading from the commons)
+
+**Barrier:** Low for users, medium for builders
+
+**Target:** End users (via tool creators)
+
+**What this enables:** Personalized discovery without platform lock-in or surveillance
+
 
 ## What Makes This Different
 
-### Community-Owned, Not Platform-Controlled
+**Community coordination, not platform control**
 
-Built by cooperatives, local groups, and civic tech practitioners—not venture-backed startups optimizing for extraction.
+- No single company owns the data or infrastructure
+- Volunteer-driven; we can reconfigure to administer funding if warranted
+- Built on open standards (Schema.org, W3C, IETF)
 
-**Why it matters:** Incentives are aligned with the community. Decisions are made transparently, with input from organizers, users, and the ecosystem.
+**Works with what exists**
 
-### Privacy-First by Design
+- Publishers reach more people without changing platforms
+- Backward compatible (events can syndicate to legacy platforms too)
+- Users can use their existing tools and practices, adapted to read from the commons
 
-Your curator runs locally or through a trusted instance. Your preferences, calendar, and social graph stay with you. No tracking. No profiling.
+**Privacy-first by design**
 
-**In practice:**
-- Curators can run entirely on-device
-- Or use community-hosted instances you trust
-- Event data is served without surveillance
-- Your preference model stays private
-- No third-party tracking
+- Discovery happens locally (your AI agent) or through trusted instances
+- No surveillance, no tracking, no ad targeting
+- User controls their data and preferences
 
-### Works With What Already Exists
+**Deliver value for small events first**
 
-We strengthen email lists, calendars, websites, and group chats—we don't replace them. Events published through togather appear everywhere they need to go: ICS feeds, ActivityPub streams, legacy platforms, and custom apps.
+- Building for DIY shows, community workshops, neighborhood gatherings
+- Focused on the events that make culture alive
+- Not optimizing for commercial venues or ticket sales, but for people to be able to go out and participate in their community
 
-**Integration points:**
-- Publish via API, web form, email, or mobile app
-- Syndicate to other platforms automatically
-- Embed discovery widgets on your website
-- Connect to existing CMS platforms
-- Push to Fediverse, RSS, email newsletters
 
-### Open Source & Transparent
+## Who This Is For
 
-All code is inspectable, forkable, and improvable. Open standards mean anyone can build compatible tools. No black-box algorithms.
+### Event Publishers (Organizers, Venues)
 
-**What's open:**
-- Reference curator implementation
-- Event library server
-- Publishing tools
-- Data standards and schemas
-- API specifications
+**You should care if:** You're exhausted from cross-posting, you want to own your audience relationship, you believe your events should be discoverable without paying platforms
 
-### Built for the Smallest Events First
+**What you do:** Add Schema.org markup to your website, publish iCalendar feeds, add your website to the commons list of sources
 
-The DIY shows, community workshops, artist talks, and neighborhood gatherings that make culture alive—not just big commercial venues.
+**What you get:** Publish once, appear everywhere; reach people looking for exactly what you do
 
-**Why this matters:** Most events *aren't* on Eventbrite. They're announced on Instagram Stories, email lists, and posters. Togather reaches them.
+### Infrastructure Builders (Developers, Civic Tech)
 
-### Bring Your Own AI
+**You should care if:** You're building event tools, you're tired of scraping, you believe in open data and decentralization
 
-The system is modular. Swap models, tune algorithms, or write your own rules. AI should serve communities, not the other way around.
+**What you do:** Build on shared standards; contribute to reference implementations; run federated instances
 
-**Examples:**
-- Train your own recommendation model
-- Use open-source ML (no proprietary API required)
-- Mix multiple models
-- Write deterministic rules
-- Integrate with other tools
+**What you get:** Stop reinventing data collection; build innovative apps on solid foundation; find collaborators
 
----
+### Application Creators (Curators, Tool Makers)
 
-## How It Works in Practice
+**You should care if:** You want to help people discover events, you're building AI agents or personalized experiences, you value user privacy
 
-### For Individuals
+**What you do:** Create discovery tools using the commons (AI curators, newsletters, calendar apps)
 
-- Get a **personal event curator** that learns what you care about
-- Discover events from across the web, aggregated in one place
-- Coordinate with friends without exposing your whole calendar
-- Receive suggestions via feed, newsletter, or calendar—ad-free
-- Export your events anywhere
+**What you get:** Access to distributed event data; no platform dependencies; serve your community
 
-### For Organizers & Venues
+### Civic & Cultural Organizations
 
-- **Publish once, appear everywhere**: Create an event and push it to websites, calendars, Fediverse, email lists, and legacy platforms
-- Own your audience without renting access from platforms
-- Reach people looking for exactly what you do—not just who the algorithm favors
-- Access analytics without selling attendee data
-- Integrate ticketing, registration, and notifications
+**You should care if:** You work on digital public infrastructure, cultural data, community coordination, or local government innovation
 
-### For Developers & Builders
+**What you do:** Adopt standards for your calendars; support practitioners; help legitimize the approach
 
-- **Open source, open data**: All code is documented and standards-based
-- Build apps on the Shared Event Library—for free
-- Integrate privacy-first ML models to improve discovery
-- Fork the curator, extend the protocol, or build entirely new experiences
-- Monetize through services, not data extraction
+**What you get:** Cities can coordinate culture without depending on corporate platforms
 
----
 
-## The Foundation's Role
+## What the Foundation Does
 
-The **Togather Foundation** serves as **ecosystem coordinator**, not platform owner.
+**The Togather Foundation is a coordination point, not a platform owner.**
 
-### Advocate for Standards
+**We provide:**
 
-Promote common standards (Schema.org events, iCalendar, ActivityPub) so data producers and consumers can interoperate without intermediaries.
+1. **Reference Implementations** → Build and host the first version of the events commons; prove the model works; provide starting points for others
+2. **Documentation & Standards Guidance** → How to publish events, build tools, use the commons
+3. **Community Convening** → Connect practitioners, facilitate collaboration, prevent fragmentation
+4. **Evangelism & Education** → Make the opportunity legible; demonstrate prosocial impact
+5. **Ecosystem Mapping** → Who's working on what; reduce duplication
 
-### Coordinate Projects
+**We do NOT:**
 
-Align initiatives across the ecosystem—from event aggregators to calendar apps to venue management tools—so they strengthen each other rather than fragment.
+- Own event data
+- Control what tools get built (ecosystem decides)
+- Monetize the community (volunteer-driven)
+- Require people to use our infrastructure (use any compatible tools)
 
-### Educate & Communicate
+**Governance:** Transparent, volunteer-based. Grow with the success of the community as a non-profit as needed.
 
-Demonstrate the prosocial impact of shared infrastructure, help communities adopt these tools, and make the opportunity legible to funders, policymakers, and practitioners.
 
-### Build Core Tools
+## How to Get Involved
 
-Develop reference implementations (curators, aggregators, publishing tools) that prove the model works and invite others to improve on them.
+**I'm an organizer/venue operator:**
 
----
+- Start publishing events using Schema.org markup
+- Register your website events page(s) with us for data collection
+- Join the community to share your experience to help us understand what tools you need
 
-## Who We're Looking For
+**I'm a developer/builder:**
 
-### Arts & Culture Data Allies
+- Build on the standards (link to technical docs coming soon)
+- Contribute to reference implementations
+- Connect with other practitioners
+- Participate in a technical discussion table or engineering work group
 
-Organizations working on open cultural data, event metadata standards, or community calendars. Let's align our efforts.
+**I'm working on similar problems:**
 
-### Startup Founders & Developers
+- Let's coordinate efforts instead of fragmenting
+- Share your learnings with the community
+- Co-create documentation and standards
 
-Teams building discovery apps, calendar tools, or community platforms. Build on our shared infrastructure instead of reinventing the data layer.
+**I'm interested but not sure how to help:**
 
-### Individual Hackers & Makers
+- Join the mailing list / Discord (coming soon)
+- Attend community calls
+- Spread the word in your networks
+- Provide feedback on documentation
 
-People who want to scratch their own itch—whether that's a better concert finder, a neighborhood event digest, or a Discord bot that pulls from the shared library.
 
-### Civic Tech Practitioners
+## Why This Matters
 
-Those working on digital public infrastructure, cooperative technology, or local government innovation. This is infrastructure for thriving cities.
+**Events are the heartbeat of local culture.** They happen everywhere: in living rooms, parks, galleries, community centers, streets. But most events never reach the people who'd love them.
 
-### Organizers & Venue Operators
+**This isn't just about convenience.** It's about:
 
-Grassroots spaces, artist-run venues, and community groups tired of cross-posting. Help us design tools that actually serve your needs.
+- The social fabric and community connection
+- Cultural vibrancy in cities
+- Democratic participation (knowing what's happening in your community)
+- Reclaiming digital infrastructure from extractive patterns
 
-### Funders & Institutional Partners
+**We can rebuild event discovery as a data common.** Not through top-down control or massive funding, but through coordination, open standards, and shared commitment.
 
-Foundations, municipal innovation programs, and mission-aligned investors who understand that cultural infrastructure is civic infrastructure.
+**The question isn't "can we build this?"**
+**The question is: "can we show people that this is already happening?"**
 
----
 
-## Outcomes We Enable
+## FAQ: Frequently Asked Questions
 
-- **Individuals** discover community events through personalized, privacy-respecting experiences—without platform lock-in
+**Isn't this just another platform?** No. We don't host events or control access. We coordinate adoption of open standards and facilitate innovation so data flows freely between independent tools.
 
-- **Organizers** publish once and reach audiences everywhere, without ads or algorithmic suppression
+**Why would venues adopt this?** Reach more people with less work. Publish once (on your website), appear everywhere (in AI curators, city calendars, newsletters, apps).
 
-- **Developers** build innovative applications on shared, open infrastructure instead of siloed datasets
+**What about spam and data quality?** We need your support in solving these problems. We see community moderation, reputation systems, and validation tools approaches that work for Wikipedia, OpenStreetMap, etc. Be part of the answer in making this work for events.
 
-- **Communities** see and coordinate themselves—making neighborhoods more connected and culture more visible
+**How is this different from existing event platforms?** Those may be closed platforms that own your data. This is open infrastructure where you control your event information and it's accessible to any tool.
 
-- **Cities** support local gathering without relying on extractive corporate platforms
+**Why semantic web standards instead of building something new?** Schema.org, iCalendar, and ActivityPub already exist and work. We're coordinating adoption, not inventing new standards.
 
----
+**How do you make money?** We don't. This is volunteer-driven. If the movement grows and needs resources, we'll pursue grants or community funding transparently.
 
-## Get Involved
+**What if this fails?** Documentation and connections remain valuable. Even "failure" helps future efforts by recording what we learned.
 
-We're at the beginning. The protocols are being drafted. The first curators are being built. The ecosystem is taking shape.
+**Can I fork this or start my own version?** Yes! All documentation is open. If you can run it better, please do, but we encourage you to reach out and work with us first. We can be better together.
 
-**If this resonates—if you have expertise, see the opportunity, or want to help make this real—[let's talk](mailto:info@togather.foundation).**
+**Who's behind this?** Started in Toronto by artists, hackers, and community builders. Open to anyone who shares the vision.
 
 <ul class="cta-links">
 
