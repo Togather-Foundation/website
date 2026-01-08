@@ -2,6 +2,7 @@
 title: "Togather Foundation"
 description: "Community-owned infrastructure for event discovery. Join the ecosystem."
 hide_title: true
+hide_header: true
 ---
 
 <div class="hero">
@@ -12,7 +13,7 @@ hide_title: true
 - Organizers post everywhere, reach no one.
 - Communities miss what matters most.
 
-**Togather** is a collaboration for the future of events data. We are making a data commons for open events ecosystems.
+[Togather]({{< relref "/about" >}}) is a collaboration for the future of events data. We are making a data commons for open events ecosystems.
 
 <div class="cta-buttons">
 
