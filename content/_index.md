@@ -48,21 +48,21 @@ This changes everything. What if event discovery worked like the internet *shoul
 
 **1. Data Production & Collection**
 
-Open standards and tools for publishing event information—from institutional calendars to grassroots sites to physical posters.
+Open standards and tools for publishing event information combined with distributed collection and cleaning of event data.
 
 </div>
 <div class="layer">
 
 **2. Data Storage & Retrieval**
 
-A Shared Event Library: community-owned, federated infrastructure. No vendor lock-in. No surveillance.
+A Shared Event Library: community-owned infrastructure. No vendor lock-in. No surveillance.
 
 </div>
 <div class="layer">
 
 **3. Applications & Agents**
 
-Personal AI curators, calendar assistants, neighborhood discovery apps—all built on the same open foundation.
+Personal AI curators, calendar assistants, neighborhood discovery apps, all built on the same open foundation.
 
 </div>
 </div>

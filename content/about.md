@@ -18,16 +18,16 @@ Togather was founded in Toronto by a group of artists, hackers, and community bu
 We're rebuilding event discovery as a public good. A world where:
 
 - **People** discover events that matter to them without surveillance or algorithmic manipulation
-- **Organizers** reach their audiences directly, owning their relationship with attendees
+- **Organizers** reach their audiences directly, without paying for the privilege
 - **Communities** can see and coordinate themselves
 - **Developers** build innovative tools on shared, open infrastructure
 - **Cities** thrive with cultural coordination that doesn't depend on corporate platforms
 
 ## Why This Matters
 
-Events are the heartbeat of local culture. They happen everywhere—in living rooms, parks, galleries, community centers, and streets. But discovery is broken. Most events never reach the people who'd love them because they're scattered across incompatible platforms, buried in algorithms, or announced only through channels people don't follow.
+Events are the heartbeat of local culture. They happen everywhere—in living rooms, parks, galleries, community centers, and streets. But discovery is broken. Most events never reach the people who'd love them because they're scattered across incompatible platforms, buried by algorithms, or announced on channels people don't follow.
 
-Organizers respond by exhausting themselves cross-posting to Facebook, Instagram, email lists, Discord, Eventbrite, and personal websites. Communities can't coordinate themselves because there's no shared infrastructure. And platforms extract massive value—monetizing attention while contributing nothing to culture.
+Organizers respond by exhausting themselves cross-posting to Facebook, Instagram, email lists, Discord, Eventbrite, and personal websites. Communities can't coordinate themselves because there's no shared infrastructure. And platforms monetize while contributing little to culture.
 
 **We can do better.** We can build infrastructure that serves communities instead of extracting from them.
 
@@ -45,7 +45,7 @@ We don't own the data. We don't control the apps. We don't monetize the communit
 
 ## Get Involved
 
-Whether you're an organizer, developer, funder, or just someone who believes local culture matters—there's a place for you in this ecosystem.
+Whether you're an organizer, developer, funder, or just someone who believes local culture matters, there's a place for you in this ecosystem.
 
 - **Build tools**: Use our open APIs and data standards
 - **Share data**: Publish your events through our standards
@@ -57,4 +57,4 @@ Whether you're an organizer, developer, funder, or just someone who believes loc
 
 **Email:** [info@togather.foundation](mailto:info@togather.foundation)
 
-We'd love to hear from you—whether you're interested in building with us, partnering, contributing, or just exploring the opportunity. Reach out and let's talk about the future of event discovery.
+We'd love to hear from you, whether you're interested in building with us, partnering, contributing, or just exploring the opportunity. Reach out and let's talk about the future of event discovery.
