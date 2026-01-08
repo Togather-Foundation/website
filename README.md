@@ -92,6 +92,7 @@ Custom CSS is in `themes/minimal/assets/css/main.css`.
 ## 📖 Resources
 
 - [Hugo Documentation](https://gohugo.io/documentation/)
+  - [Hosting on Github Pages](https://gohugo.io/host-and-deploy/host-on-github-pages/) 
 - [Pico CSS Documentation](https://picocss.com/docs)
 - [Markdown Guide](https://www.markdownguide.org/)
 
