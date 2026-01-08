@@ -1,0 +1,10 @@
+<nav>
+  <ul>
+    <li><strong><a href="{{ .Site.Home.RelPermalink }}" class="contrast">{{ .Site.Title }}</a></strong></li>
+  </ul>
+  <ul>
+    {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
