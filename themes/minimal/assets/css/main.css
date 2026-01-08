@@ -310,7 +310,56 @@ main li::before {
 
 /* ===== Responsive ===== */
 
+/* ===== Responsive Navigation ===== */
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+/* Stack nav vertically on narrow screens */
 @media (max-width: 640px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  nav ul:first-child {
+    width: 100%;
+    margin-bottom: 0rem;
+    border-bottom: 1px solid var(--pico-form-element-border-color);
+    padding-bottom: 0rem;
+  }
+
+  nav ul:last-child {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  nav li {
+    padding: 0.5rem;
+  }
+
+  nav ul:last-child li {
+    display: block;
+  }
+
   .cta-buttons {
     flex-direction: column;
   }
@@ -357,7 +406,7 @@ main li::before {
 
 .cta-links li {
   display: inline-flex;
-  padding: 0;
+  padding: 0 0.75rem;
 }
 
 .cta-links li::before {
