@@ -7,7 +7,7 @@ menu:
     weight: 3
 ---
 
-The **Togather Foundation** is building open, community-owned infrastructure for event discovery—because local culture deserves better than extractive platforms.
+**Togather** is a collaboration for the future of events data. We are making a data commons for open events ecosystems.
 
 ## Our Story
 
