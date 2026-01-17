@@ -1,5 +1,50 @@
 /* Togather Foundation - Custom Styles */
 
+/* ===== Background Animation Canvas ===== */
+
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+#bg-canvas.loaded {
+  opacity: 1;
+}
+
+body {
+  position: relative;
+  background-color: var(--pico-background-color);
+}
+
+/* Blur effect behind content containers */
+main.container,
+header.container,
+footer.container {
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+main.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 640px) {
+  main.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 /* ===== Typography & Spacing ===== */
 
 body {
@@ -36,27 +81,6 @@ p {
   animation: fadeInDown 0.8s ease-out;
   margin-bottom: 3rem;
   position: relative;
-  background: linear-gradient(135deg, 
-    transparent 0%, 
-    rgba(76, 155, 138, 0.03) 25%, 
-    rgba(76, 155, 138, 0.05) 50%, 
-    rgba(76, 155, 138, 0.03) 75%, 
-    transparent 100%);
-  border-radius: 0.5rem;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: 
-    radial-gradient(circle at 20% 50%, rgba(76, 155, 138, 0.02) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(76, 155, 138, 0.02) 0%, transparent 50%);
-  pointer-events: none;
-  border-radius: 0.5rem;
 }
 
 .hero h1 {

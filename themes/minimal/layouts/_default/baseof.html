@@ -4,6 +4,7 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+  <canvas id="bg-canvas"></canvas>
   {{ if not .Params.hide_header }}
   <header class="container">
     {{ partial "header.html" . }}
@@ -15,5 +16,6 @@
   <footer class="container">
     {{ partial "footer.html" . }}
   </footer>
+  <script src="{{ "js/background-animation.js" | relURL }}"></script>
 </body>
 </html>
